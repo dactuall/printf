@@ -8,7 +8,7 @@ OBJ	= $(putsubst %.c, %.o, $(SRC))
 CFLAGS	= -Wall -Wextra -Werror -I$(HEADER)
 CC = gcc
 
-.PHONY all clean fclean re
+.PHONY: all clean fclean re
 
 all	: $(NAME)
 
